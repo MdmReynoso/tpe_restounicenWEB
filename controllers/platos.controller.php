@@ -48,10 +48,10 @@ class PlatosController
         $this->view->detalle($plato, $categorias);
     }
 
-    public function showPlatos($id_plato)
+    public function showPlatos($id_categoria)
     {
         $categorias = $this->modelcategorias->getAll();
-        $platos = $this->modelplatos->getbyID($id_plato);
+        $platos = $this->modelplatos->getbyPlato($id_categoria);
         $this->view->platos($categorias, $platos);
     }
 

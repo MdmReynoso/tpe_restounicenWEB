@@ -55,7 +55,7 @@ class UserController
             //si coincide inicio sesion
             if (!empty($userDb) && password_verify($pass, $userDb->password)) {
                 AuthHelper::login($userDb);
-                header("Location: " . BASE_URL . 'admin');
+                header("Location: " . BASE_URL . 'platos');
             } else
                 $this->view->showLogin("Login incorrecto, password o usuario incorrecto");
         } else {
@@ -67,6 +67,6 @@ class UserController
     public function logout()
     {
         AuthHelper::logout();
-        header("Location: " . BASE_URL . 'login');
+        header("Location: " . BASE_URL . 'home');
     }
 }

@@ -1,10 +1,9 @@
 <div class="container-fluid">
-
+<div class="row">
     {include file="header.tpl"}
     {include file="nav.tpl"}
-    <div class="col-1">
-    </div>
-    <div class="col-9">
+  
+    <div class="col-8">
         <h1 class="text-light">¿Dónde ubicarnos?</h1>
         <div class="ubicacion">
             <img src="imagenes/mapa_satelital.png" alt="" width="600px" height="300px">

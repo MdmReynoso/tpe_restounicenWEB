@@ -31,10 +31,10 @@ class PlatosModel extends Model
      * @param $id
      * @return array
      */
-    public function getbyID($id_plato)
+    public function getbyPlato($id_categoria)
     {
         $query = $this->getDb()->prepare('SELECT * FROM platos WHERE id_categoria = ? ORDER BY nombre ASC');
-        $query->execute([$id_plato]);
+        $query->execute([$id_categoria]);
         return $query->fetchAll(PDO::FETCH_OBJ);
     }
 

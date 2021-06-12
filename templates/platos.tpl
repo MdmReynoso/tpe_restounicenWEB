@@ -1,10 +1,14 @@
 {include file="header.tpl"}
 <div class="row">
     {include file="nav.tpl"}
-    <div class="col-4">
+    <div class="col-8">
         {include file="listacategorias.tpl"}
-    </div>
-    <div class="col-4">
+
+
+        {if $username}
+            {include file="agregar.categoria.tpl"}
+            {include file="agregar.plato.tpl"}
+        {/if}
         {include file="tarjetasplatos.tpl"}
     </div>
 </div>

@@ -5,9 +5,8 @@
 
 
         {include file="nav.tpl"}
-        <div class="col-1">
-        </div>
-        <div class="col-9">
+       
+        <div class="col-8">
 
             <article class="bienvenida">
                 <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">

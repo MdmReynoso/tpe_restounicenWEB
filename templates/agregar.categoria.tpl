@@ -1,9 +1,9 @@
-<div class="container_formulario">
-    <div class="mb-3">
+<div class="container_formulario control-label col-md-12 btn btn-light list-group-item active">
+    <div class="mb-3t">
         <div class="formulario">
             <form method="POST" action="agregarCategoria">
                 <div class="titulo_formulario">
-                    Agregar categoria
+                    <h2>Cargar categoria</h2>
                 </div>
                 <div class="fila_formulario">
                     <label for="name"> Nombre: </label>

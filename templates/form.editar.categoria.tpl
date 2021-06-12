@@ -9,10 +9,7 @@
             <h1 class="text-warning"> Editando {$categoria->nombre}</h1>
 
             <form method="POST" action="editarCategoria">
-                <div class="form-group">
-                    <label>Title</label>
-                    <input type="text" name="title" class="form-control">
-                </div>
+                
 
                 <div class="form-group">
                     <label>Categoria a editar:</label>
@@ -31,4 +28,3 @@
         </div>
     </div>
 </div>
-{include file="footer.tpl"}

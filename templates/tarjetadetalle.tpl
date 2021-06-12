@@ -1,7 +1,8 @@
-<div class="card mb-3 bg-success mb-3 " style="max-width: 540px;">
+
+<div class="card mb-4 bg-success mb-4 " style="max-width: 540px;">
     <div class="row g-0 ">
         <div class="col-md-4">
-            <img class="img-thumbnail" src="imagenes/tomaterelleno.jpg" alt="...">
+            <img class="img-thumbnail2" src="imagenes/tomaterelleno.jpg" alt="...">
         </div>
         <div class="col-md-8">
             <div class="card-body ">

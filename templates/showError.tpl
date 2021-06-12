@@ -1,4 +1,4 @@
-{include file="header.tpl"}
+
 <div class="contenedor">
     <div class="encabezado">
         {include file="nav.tpl"}

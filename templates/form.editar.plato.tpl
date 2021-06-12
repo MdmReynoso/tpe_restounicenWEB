@@ -10,12 +10,6 @@
 
             <form method="POST" action="editarPlato">
                 <div class="form-group">
-                    <label>Plato a editar:</label>
-                    <select name="plato" class="form-control">
-                        <option value="{$plato->id_plato}">{$plato->nombre}</option>
-                    </select>
-                </div>
-                <div class="form-group">
                     <label>Nuevo nombre de plato:</label>
                     <input class="form-control" type="text" id="name" name="name" value="{$plato->nombre}">
                 </div>
@@ -31,13 +25,7 @@
                         value="{$plato->nacionalidad}">
                 </div>
                 <button type="submit" class="btn btn-warning">Guardar</button>
-                {if $error}
-                    <div class="text-danger">
-                        *{$error}
-                    </div>
-                {/if}
-            </form>
+                </form>
+                </div>
+            </div>
         </div>
-    </div>
-</div>
-{include file="footer.tpl"}

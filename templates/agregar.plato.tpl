@@ -1,9 +1,9 @@
-<div class="container_formulario">
-
+<div class="container_formulario control-label col-sd-12 btn btn-light list-group-item active">
+    <div class="card-group mt-3">
     <div class="formulario">
         <form method="POST" action="agregarPlato">
             <div class="titulo_formulario">
-                Cargar plato
+            <h2>Cargar plato</h2>
             </div>
 
             <div class="fila_formulario">
@@ -35,5 +35,5 @@
             </div>
         </form>
     </div>
-
+    </div>
 </div>

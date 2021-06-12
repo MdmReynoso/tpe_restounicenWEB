@@ -1,4 +1,5 @@
 <div class="container_formulario">
+<div class="mb-3">
 
     <div class="formulario">
         <form method="POST" action="formEditarPlato">
